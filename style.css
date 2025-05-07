@@ -69,3 +69,51 @@ header ul {
     background-color: grey;
     color: white;
 }
+
+button {
+    max-width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    border-color: #3882F6;
+    border-style: none;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.random-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px 0px 180px;
+    gap: 50px;
+}
+
+#information-header-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.boxes {
+    display: flex;
+    gap: 70px;
+}
+
+.box {
+    padding: 100px;
+    border-color: #3882F6;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10%;
+}
+
+.subtext {
+    max-width: 210px;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
