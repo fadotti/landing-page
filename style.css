@@ -29,6 +29,7 @@ header ul {
     font-size: 24px;
     color: #F9FAF8;
     margin-right: auto;
+    font-weight: bold;
 }
 
 .secondary-text {
@@ -71,7 +72,7 @@ header ul {
 }
 
 button {
-    max-width: 150px;
+    width: 150px;
     padding: 10px;
     border-radius: 10px;
     background-color: #3882F6;
@@ -79,13 +80,14 @@ button {
     border-style: none;
     color: #F9FAF8;
     font-size: 18px;
+    font-weight: 600;
 }
 
 .random-information {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 70px 0px 180px;
+    margin: 70px 0px 150px;
     gap: 50px;
 }
 
@@ -116,4 +118,62 @@ button {
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+.quote-section-container {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    padding: 130px 0px 100px;
+}
+
+.whitespace {
+    width: 500px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    gap: 20px;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+#quote-author {
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    margin: 100px 300px;
+    padding: 50px 0px;
+    gap: 200px;
+    border-radius: 10px;
+}
+
+.call-to-action-button {
+    max-width: 150px;
+    border-color: #F9FAF8;
+    border-width: 3px;
+    border-style: solid;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 30px 0px;
+    font-size: 18px;
 }
