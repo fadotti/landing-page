@@ -7,4 +7,4 @@ The following two images contain specifications for the styling and item placeme
 
 ![Image one](./01.png)
 
-![Image one](./02.png)
+![Image two](./02.png)
